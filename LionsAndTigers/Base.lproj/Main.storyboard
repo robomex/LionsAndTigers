@@ -33,16 +33,25 @@
                                     </barButtonItem>
                                 </items>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="524" width="320" height="45"/>
+                                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 </variation>
                             </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="random fact" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="au8-08-ldh">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="425" width="288" height="91"/>
+                                </variation>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ipi-5M-kEo">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="461" width="125" height="21"/>
+                                    <rect key="frame" x="16" y="367" width="125" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="breed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3LL-KY-Sov">
@@ -51,7 +60,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="490" width="125" height="21"/>
+                                    <rect key="frame" x="16" y="396" width="125" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6K-sh-usI">
@@ -60,7 +69,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="432" width="125" height="21"/>
+                                    <rect key="frame" x="16" y="338" width="125" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -69,6 +78,7 @@
                             <mask key="subviews">
                                 <exclude reference="JsH-45-D6p"/>
                                 <exclude reference="J89-dv-ZfV"/>
+                                <exclude reference="au8-08-ldh"/>
                                 <exclude reference="Ipi-5M-kEo"/>
                                 <exclude reference="3LL-KY-Sov"/>
                                 <exclude reference="x6K-sh-usI"/>
@@ -78,6 +88,7 @@
                             <mask key="subviews">
                                 <include reference="JsH-45-D6p"/>
                                 <include reference="J89-dv-ZfV"/>
+                                <include reference="au8-08-ldh"/>
                                 <include reference="Ipi-5M-kEo"/>
                                 <include reference="3LL-KY-Sov"/>
                                 <include reference="x6K-sh-usI"/>
@@ -91,6 +102,7 @@
                         <outlet property="breedLabel" destination="3LL-KY-Sov" id="kzo-C0-3YV"/>
                         <outlet property="myImageView" destination="JsH-45-D6p" id="TBn-mt-adm"/>
                         <outlet property="nameLabel" destination="x6K-sh-usI" id="kZ2-OF-yez"/>
+                        <outlet property="randomFactLabel" destination="au8-08-ldh" id="bUA-BJ-Yir"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
