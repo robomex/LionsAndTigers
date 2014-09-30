@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     
     var myTigers:[Tiger] = []
     
+    var lions:[Lion] = []
+    
     var currentIndex = 0
     
     override func viewDidLoad() {
@@ -81,6 +83,24 @@ class ViewController: UIViewController {
 //        fourthTiger.chuff()
         
         myTigers += [secondTiger, thirdTiger, fourthTiger]
+        
+        var lion = Lion()
+        lion.age = 4
+        lion.isAlphaMale = false
+        lion.image = UIImage(named: "Lion.jpg")
+        lion.name = "Mufasa"
+        lion.subspecies = "West African"
+        
+        println("Lion's age is \(lion.age) and the lion's name is \(lion.name) and the lion's subspecies is \(lion.subspecies)")
+        
+        var lioness = Lion()
+        lioness.age = 3
+        lioness.isAlphaMale = false
+        lioness.image = UIImage(named: "Lioness.jpeg")
+        lioness.name = "Sarabi"
+        lioness.subspecies = "Barbary"
+        
+        lions += [lion, lioness]
     }
 
     override func didReceiveMemoryWarning() {
