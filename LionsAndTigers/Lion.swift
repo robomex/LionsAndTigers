@@ -16,11 +16,11 @@ class Lion {
     var name = ""
     var subspecies = ""
  
-    func roar () {
+    func roar() {
         println("Lion: ROAR ROARRRRR")
     }
     
-    func changeToAlphaMale () {
+    func changeToAlphaMale() {
         isAlphaMale = true
     }
     

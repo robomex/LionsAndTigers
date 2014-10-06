@@ -23,6 +23,7 @@
 		DE26889119D7C9AE0042E883 /* MalayanTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE26888919D7C9AE0042E883 /* MalayanTiger.jpg */; };
 		DE26889219D7C9AE0042E883 /* SiberianTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE26888A19D7C9AE0042E883 /* SiberianTiger.jpg */; };
 		DEAFEFBD19DA5D2100E991D2 /* Lion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAFEFBC19DA5D2100E991D2 /* Lion.swift */; };
+		DEAFEFBF19E25F5C00E991D2 /* LionCub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAFEFBE19E25F5C00E991D2 /* LionCub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		DE26888919D7C9AE0042E883 /* MalayanTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MalayanTiger.jpg; sourceTree = "<group>"; };
 		DE26888A19D7C9AE0042E883 /* SiberianTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SiberianTiger.jpg; sourceTree = "<group>"; };
 		DEAFEFBC19DA5D2100E991D2 /* Lion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lion.swift; sourceTree = "<group>"; };
+		DEAFEFBE19E25F5C00E991D2 /* LionCub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionCub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			children = (
 				DE26888019D7C54A0042E883 /* Tiger.swift */,
 				DEAFEFBC19DA5D2100E991D2 /* Lion.swift */,
+				DEAFEFBE19E25F5C00E991D2 /* LionCub.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				DE26886219D7C2420042E883 /* ViewController.swift in Sources */,
 				DE26888119D7C54A0042E883 /* Tiger.swift in Sources */,
 				DE26886019D7C2420042E883 /* AppDelegate.swift in Sources */,
+				DEAFEFBF19E25F5C00E991D2 /* LionCub.swift in Sources */,
 				DEAFEFBD19DA5D2100E991D2 /* Lion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
